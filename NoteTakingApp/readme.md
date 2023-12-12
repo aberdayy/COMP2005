@@ -1,3 +1,3 @@
-deneme.py works as intended. \n
-main.py works but requires category system.\n
+deneme.py works as intended. <br>
+main.py works but requires category system. <br>
 Use deneme.py.
