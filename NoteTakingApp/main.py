@@ -11,6 +11,7 @@ def addMyNote():
     title_label.grid(row=0, column=0, padx=10, pady=10, sticky="W")
     title_entry = ttk.Entry(frame, width=40)
     title_entry.grid(row=0, column=1, padx=10, pady=10)
+
     content_label = ttk.Label(frame, text='Content:')
     content_label.grid(row=1, column=0, padx=10, pady=10, sticky="W")
     content_entry = tk.Text(frame, width=40, height=10)
