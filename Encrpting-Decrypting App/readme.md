@@ -1,19 +1,26 @@
 <b>Encryption Decrypting Application</b>
 
+<b><i>How to Use</i></b></br>
+<b>For Encrypting </b></br>
+1-Give your desired input to the 'Data' field.</br>
+2-Click 'Encrypt Data' button</br>
+3-You should be able to see the encrypted version of your data. (You cannot copy this data)</br>
+4-You can not reach your master key via application for security reasons.</br></br>
+</br><b>For Decrypting </b></br>
+1-Give your encrypted data to 'Data' field.</br>
+2-Give your master key to the second input box.</br>
+3-Press the 'Decrypt Data' field.</br>
+4-You should be able to see the encrypted version of your data.</br>
+
+<b>For security reasons master key and encrypted data only reacheable via Demo.txt file.</b></br></br>
+
+<b><i>Explanation</i></b><br>
 This code creates a simple graphical user interface (GUI) using the tkinter library in Python. The GUI has two text boxes where you can input data and a pair of buttons for encryption and decryption.
-
-Here's what each part of the code does:
-
-Import Libraries: It imports necessary libraries - Fernet from cryptography.fernet for encryption and decryption, and tkinter for GUI.
-
-GUI Initialization: It sets up the main window (master) with a title, size, and geometry.
-
 Functions:
-
 Encrypt(): Reads input from the first text box, generates an encryption key, encrypts the input message, displays the original and encrypted messages, saves the encryption key and encrypted message to a file named "demo.txt".
 Decrypt(): Reads input from the first text box as the encrypted message and the second text box as the decryption key. It decrypts the message using the provided key and displays the decrypted message.
-GUI Components:
 
+GUI Components:
 Labels (lbl) for displaying text information.
 Text boxes (inputtxt and keyInput) for user input.
 Buttons (EncryptButton and DecryptButton) that trigger the encryption and decryption functions respectively.
